@@ -1,0 +1,27 @@
+{
+  "name": "express2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "v16.20.2",
+    "npm": "8.19.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "routes": "^2.1.0",
+    "socket.io": "^4.7.4"
+  }
+}
